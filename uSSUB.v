@@ -1,5 +1,7 @@
 //By Alexander Peacock, undergrad at UCF ECE
 //email: alexpeacock56ten@gmail.com
+`ifndef uSSUB
+`define uSSUB
 
 `include "parallelcnt.v"
 
@@ -39,4 +41,6 @@ module uSSUB #(
     assign oC = acc[1];
 
 endmodule
+
+`endif
 
